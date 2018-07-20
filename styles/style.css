@@ -17,6 +17,8 @@ a{
 
 .container{
     width: 100%; 
+    background: #4c4c4c;
+    color: #f7f7f7;
 }
 
 .blurb{
@@ -29,6 +31,7 @@ a{
 
 .chead{
     width: 100%; 
+    background: radial-gradient(ellipse at top ,  #4c4c4c 75%,  #535353 5%);
 }
 
 .topper{ 
@@ -91,7 +94,7 @@ a{
 }
 
 .tscreen{
-    height: 1vh; 
+    height: 100vh; 
 }
 
 .watch-img-mobile{
@@ -142,3 +145,43 @@ a{
     transform: rotate(-90deg);
 }
 
+.foot{
+    display: flex; 
+    flex-flow: column; 
+    justify-content: space-between; 
+    flex-wrap: nowrap;
+    color: #4c4c4c;
+}
+
+.foot a{
+    color: #4c4c4c;
+}
+
+
+.map{
+    display: none; 
+}
+
+@media only screen and (min-width: 500px){
+
+
+
+
+.watch-img-mobile{
+    display: none; 
+}
+
+
+.sscreen{
+    height: auto;
+}
+
+
+.cari{
+    transform: rotate(0deg);
+    display: flex; 
+    flex-flow: row; 
+
+}
+
+}
