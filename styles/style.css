@@ -13,6 +13,11 @@ img{
 a{
     text-decoration: none; 
     color: black; 
+    font-family: 'Source Serif Pro', serif;
+}
+
+h1, h2{
+    font-family: 'Tinos', serif;
 }
 
 .container{
@@ -168,11 +173,13 @@ a{
 }
 
 .pfscreen{
-    flex-flow: row; 
+    flex-flow: row;
+    margin: 5px; 
 }
 
 .fblurb{
     align-self: center; 
+    margin: 10px 20px 10px 20px; 
 }
 
 
