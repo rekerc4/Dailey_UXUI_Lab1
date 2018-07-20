@@ -23,6 +23,7 @@ a{
 
 .blurb{
     margin: 10px 3vh 10px 3vh; 
+    font-family: 'Source Serif Pro', serif;
 }
 
 .fscreen{
@@ -90,11 +91,9 @@ a{
 .sscreen{
     display: flex; 
     flex-flow: column; 
-    height: 200vh;
 }
 
 .tscreen{
-    height: 100vh; 
 }
 
 .watch-img-mobile{
@@ -113,11 +112,11 @@ a{
     height: 20px;
     width: 20px; 
     border: 1px solid; 
-    align-self: center;
     display: flex; 
     justify-content: center; 
     align-items: center;
     border-radius: 50%;
+    margin: 25px auto 15px auto; 
 }
 
 .arrow{
@@ -139,7 +138,7 @@ a{
 
 .cari{
     width: 100vw; 
-    height: 420px; 
+    height: 100vw; 
     overflow-x: hidden; 
     overflow-y: auto; 
     transform: rotate(-90deg);
@@ -147,10 +146,10 @@ a{
 
 .foot{
     display: flex; 
-    flex-flow: column; 
     justify-content: space-between; 
     flex-wrap: nowrap;
     color: #4c4c4c;
+    background: #f7f7f7;
 }
 
 .foot a{
@@ -164,7 +163,22 @@ a{
 
 @media only screen and (min-width: 500px){
 
+.top-title{
+    font-size: 3.75em;
+}
 
+.pfscreen{
+    flex-flow: row; 
+}
+
+.fblurb{
+    align-self: center; 
+}
+
+
+.watch-img{
+    display: block; 
+}
 
 
 .watch-img-mobile{
@@ -174,14 +188,21 @@ a{
 
 .sscreen{
     height: auto;
+    flex-flow: row; 
+
 }
 
+
+.tcolumn1{
+    display: flex; 
+    flex-flow: column-reverse;
+}
 
 .cari{
     transform: rotate(0deg);
     display: flex; 
     flex-flow: row; 
-
-}
+    height: 500px;
+} 
 
 }
